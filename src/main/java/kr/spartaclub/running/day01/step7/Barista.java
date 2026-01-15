@@ -25,7 +25,7 @@ public class Barista implements CoffeeMaker {
         // 2. 창고에서 원두를 꺼내와서 사용함
         storage.useBeans(requiredBeans);
         System.out.println("🧔🏻‍♂️ 바리스타: 정성을 다해 핸드드립으로 만듭니다... (원두 -%d)".formatted(requiredBeans));
-        return new Coffee(menu.name());
+        return new Coffee(menu.getDescription());
     }
 
 

@@ -14,5 +14,9 @@ public enum Menu {
     }
 
     public int getRequiredBeans() { return requiredBeans; }
+
+    public String getDescription() {
+        return description;
+    }
 }
 
