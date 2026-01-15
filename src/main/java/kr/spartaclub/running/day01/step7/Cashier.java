@@ -12,7 +12,7 @@ public class Cashier {
     }
 
     public Coffee takeOrder(Menu menu) {
-        System.out.println("💰 캐셔: " + menu.name() + " 주문 받았습니다.");
+        System.out.println("💰 캐셔: " + menu.getDescription() + " 주문 받았습니다.");
         return coffeeMaker.makeCoffee(menu);
     }
 }
