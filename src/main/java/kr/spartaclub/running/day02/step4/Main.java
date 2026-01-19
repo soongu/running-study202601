@@ -41,5 +41,7 @@ public class Main {
 
         List<Apple> filter3 = filter(appleBasket, a -> a.getColor() == RED || a.getColor() == YELLOW);
         filter3.forEach(System.out::println);
+
+
     }
 }

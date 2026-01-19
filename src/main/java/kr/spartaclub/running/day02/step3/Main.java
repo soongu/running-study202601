@@ -29,6 +29,7 @@ public class Main {
 
         // 덧셈을 하고 싶어
         Calculator addOperation = new AddOperation();
+
         int addResult = addOperation.operate(20, 30);
         System.out.println("addResult = " + addResult);
 
